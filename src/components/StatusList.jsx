@@ -1,5 +1,6 @@
 import React from 'react';
 import Status from './Status';
+import UserStatus from './UserStatus';
 
 var masterStatusList = [
   {
@@ -22,7 +23,8 @@ var masterStatusList = [
 function StatusList(){
   return (
     <div>
-      <hr/>
+      <h2>Status List</h2>
+      <UserStatus/>
       {masterStatusList.map((status, index) =>
         <Status names={status.names}
           location={status.location}

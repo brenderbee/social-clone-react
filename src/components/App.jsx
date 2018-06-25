@@ -5,10 +5,21 @@ import StatusList from './StatusList';
 import RequestList from './RequestList';
 
 function App(){
+  let wrapper = {
+    margin: '5% 10%'
+  };
+
   return(
-    <div>
+    <div style={wrapper}>
       <Nav/>
-      <div>
+      <div className="main">
+        <style jsx>{`
+            .main {
+              display: flex;
+              justify-content: space-between;
+              border-top: 2px solid grey;
+            }
+            `}</style>
         <Profile/>
         <StatusList/>
         <RequestList/>

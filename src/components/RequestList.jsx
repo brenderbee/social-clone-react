@@ -22,7 +22,7 @@ var masterRequestList = [
 function RequestList(){
   return (
     <div>
-      <hr/>
+      <h2>Friend Requests</h2>
       {masterRequestList.map((request, index) =>
         <Request names={request.names}
           location={request.location}

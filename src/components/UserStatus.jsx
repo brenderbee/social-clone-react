@@ -1,18 +1,17 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 
-function Profile(){
+function UserStatus(){
   return (
     <div>
-      <h2>Profile</h2>
     </div>
   );
 }
 
-// Profile.propTypes = {
+// UserStatus.propTypes = {
 //   names: PropTypes.string.isRequired,
 //   location: PropTypes.string.isRequired,
 //   issue: PropTypes.string
 // };
 
-export default Profile;
+export default UserStatus;
