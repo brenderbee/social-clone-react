@@ -33,6 +33,7 @@ function Search(){
             padding: 0 1.6rem;
             font-size: 1rem;
             text-transform: uppercase;
+            transition: background 0.3s ease, border 0.3s ease;
           }
 
           .search-button:hover {
@@ -40,9 +41,6 @@ function Search(){
             border: 2px solid #1e699c;
             background: #1e699c;
             color: white;
-            border-radius: 2.75rem;
-            height: 100%;
-            width: 30%;
           }
           `}</style>
     </div>
