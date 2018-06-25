@@ -1,8 +1,8 @@
 import React from 'react';
 import Nav from './Nav';
 import Profile from './Profile';
-import StatusList from './StatusList';
 import RequestList from './RequestList';
+import Newsfeed from './Newsfeed';
 
 function App(){
   let wrapper = {
@@ -18,10 +18,11 @@ function App(){
               display: flex;
               justify-content: space-between;
               border-top: 2px solid grey;
+              margin-top: 1.6rem;
             }
             `}</style>
         <Profile/>
-        <StatusList/>
+        <Newsfeed/>
         <RequestList/>
       </div>
     </div>
