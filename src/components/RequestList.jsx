@@ -24,9 +24,9 @@ function RequestList(){
     <div>
       <hr/>
       {masterRequestList.map((request, index) =>
-        <Status names={ticket.names}
-          location={ticket.location}
-          issue={ticket.issue}
+        <Request names={request.names}
+          location={request.location}
+          issue={request.issue}
           key={index}/>
       )}
     </div>

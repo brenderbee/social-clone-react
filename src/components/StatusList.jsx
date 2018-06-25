@@ -24,9 +24,9 @@ function StatusList(){
     <div>
       <hr/>
       {masterStatusList.map((status, index) =>
-        <Status names={ticket.names}
-          location={ticket.location}
-          issue={ticket.issue}
+        <Status names={status.names}
+          location={status.location}
+          issue={status.issue}
           key={index}/>
       )}
     </div>

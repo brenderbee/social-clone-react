@@ -1,13 +1,12 @@
 import React from 'react';
+import Menu from './Menu';
+import Search from './Search';
 
 function Nav(){
-  let headerStyles = {
-    color: 'red'
-  };
-
   return(
     <div>
-
+      <Menu/>
+      <Search/>
     </div>
   );
 }
