@@ -1,12 +1,18 @@
 import React from 'react';
-import Header from './Header';
-import TicketList from './TicketList';
+import Nav from './Nav';
+import Profile from './Profile';
+import StatusList from './StatusList';
+import RequestList from './RequestList';
 
 function App(){
   return(
     <div>
-      <Header/>
-      <TicketList/>
+      <Nav/>
+      <div>
+        <Profile/>
+        <StatusList/>
+        <RequestList/>
+      </div>
     </div>
   );
 }

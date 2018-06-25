@@ -1,6 +1,6 @@
 # Brenda Franco
 
-#### _Social Media clone in React Assignment for Epicodus_
+#### _Social Media clone in React. Assignment for Epicodus_
 
 #### By: _**Brenda Franco**_
 

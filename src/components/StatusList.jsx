@@ -1,7 +1,7 @@
 import React from 'react';
-import Ticket from './Ticket';
+import Status from './Status';
 
-var masterTicketList = [
+var masterStatusList = [
   {
     names: 'Thato and Haley',
     location: '3A',
@@ -19,12 +19,12 @@ var masterTicketList = [
   }
 ];
 
-function TicketList(){
+function StatusList(){
   return (
     <div>
       <hr/>
-      {masterTicketList.map((ticket, index) =>
-        <Ticket names={ticket.names}
+      {masterStatusList.map((status, index) =>
+        <Status names={ticket.names}
           location={ticket.location}
           issue={ticket.issue}
           key={index}/>
@@ -33,4 +33,4 @@ function TicketList(){
   );
 }
 
-export default TicketList;
+export default StatusList;
