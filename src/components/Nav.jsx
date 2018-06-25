@@ -5,7 +5,9 @@ import Search from './Search';
 function Nav(){
   let navStyles = {
     display: 'flex',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: '1.6rem'
   };
 
   return(

@@ -12,6 +12,7 @@ function Menu(){
             justify-content: space-between;
             align-items: center;
             border-top: 2px solid gray;
+            border-bottom: 2px solid gray;
             margin: 0;
           }
 
@@ -23,6 +24,7 @@ function Menu(){
             margin: 0;
             border-right: 2px solid gray;
             font-size: 1.2rem;
+            font-weight: 300;
             font-family: "Helvetica", sans-serif;
             transition: background 0.3s ease, color 0.3s ease;
           }
