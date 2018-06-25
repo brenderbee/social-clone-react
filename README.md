@@ -1,12 +1,12 @@
-# _Brenda Franco_
+# Brenda Franco
 
-#### _Assignment for Epicodus_
+#### _Social Media clone in React Assignment for Epicodus_
 
 #### By: _**Brenda Franco**_
 
 ## Description
 
-_This webpage application is designed ...._
+_This webpage application is designed to clone a social media account using React. The application is static._
 
 _This project uses Webpack to bundle and minify the code. The view library is React. Babel is used to transpile ES6. All dependencies required are included in this project._
 
@@ -30,10 +30,6 @@ _This project uses Webpack to bundle and minify the code. The view library is Re
     * $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   * Next, ensure Homebrew packages are run before the system versions of the same (which may be dated or not what we want) by executing the following:
     * $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
-
-  #### Karma Installation
-  * If you do not have Karma installed globally, then run the following:
-    * $ npm install -g karma-cli
 
   #### Install dependencies
   * Enter the following code in the command line to install all dependencies:
