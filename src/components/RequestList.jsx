@@ -3,30 +3,29 @@ import Request from './Request';
 
 var masterRequestList = [
   {
-    names: 'Thato and Haley',
-    location: '3A',
-    issue: 'Firebase won\'t save record. Halp.'
+    imageUrl: 'https://centrik.in/wp-content/uploads/2017/02/user-image-.png',
+    username: 'Thanatos'
   },
   {
-    names: 'Sleater and Kinney',
-    location: '4B',
-    issue: 'Fox image not displaying on page, can only see duck?'
+    imageUrl: 'https://centrik.in/wp-content/uploads/2017/02/user-image-.png',
+    username: 'Demona'
   },
   {
-    names: 'Imani & Jacob',
-    location: '9F',
-    issue: 'Donkey picture not displaying on hover in Zoology app. :('
+    imageUrl: 'https://centrik.in/wp-content/uploads/2017/02/user-image-.png',
+    username: 'Goliath'
   }
 ];
 
 function RequestList(){
+  let requestListStyles = {
+
+  };
+
   return (
-    <div>
-      <h2>Friend Requests</h2>
+    <div style={requestListStyles}>
       {masterRequestList.map((request, index) =>
-        <Request names={request.names}
-          location={request.location}
-          issue={request.issue}
+        <Request imageUrl={request.imageUrl}
+          username={request.username}
           key={index}/>
       )}
     </div>

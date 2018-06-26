@@ -3,15 +3,15 @@ import UserStatus from './UserStatus';
 import StatusList from './StatusList';
 
 function Newsfeed(){
+  let newsfeedStyles = {
+    width: '60%',
+    marginRight: '2%'
+  };
+
   return (
-    <div className="newsfeed">
+    <div style={newsfeedStyles}>
       <UserStatus/>
       <StatusList/>
-      <style jsx>{`
-        .newsfeed {
-          width: 40%;
-        }
-        `}</style>
     </div>
   );
 }
